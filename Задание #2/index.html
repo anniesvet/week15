@@ -14,13 +14,13 @@
             <div class="registration-block__row">
                 <h1 class="registration-block__title">Регистрация</h1>
                 <form class="registration-block__inputs">
-                    <input type="text" id="name" name="name" placeholder="Имя*" pattern="/^([А-Я]{1}[а-яё]{1,23}|[A-Z]{1}[a-z]{1,23})$/" required />
+                    <input type="text" id="name" name="name" placeholder="Имя*" pattern="^([А-Я]{1}[а-яё]{1,23}|[A-Z]{1}[a-z]{1,23})$" required />
                     <!-- <div class="error-message" id="noname"></div> -->
-                    <input type="text" id="surname" placeholder="Фамилия*" pattern="/^([А-Я]{1}[а-яё]{1,23}|[A-Z]{1}[a-z]{1,23})$/" required />
+                    <input type="text" id="surname" placeholder="Фамилия*" pattern="^([А-Я]{1}[а-яё]{1,23}|[A-Z]{1}[a-z]{1,23})$" required />
                     <!-- <div class="error-message2" id="nosurname"></div> -->
-                    <input type="text" id="login" placeholder="Логин*" pattern="/^[a-z0-9_-]{3,16}$/" required />
+                    <input type="text" id="login" placeholder="Логин*" pattern="^[a-z0-9_-]{3,16}$" required />
                     <!-- <div class="error-message3" id="nologin"></div> -->
-                    <input type="password" id="pass" placeholder="Пароль*" pattern="/^(?=.*[A-Z].*[A-Z])(?=.*[!@#$&*])(?=.*[0-9].*[0-9])(?=.*[a-z].*[a-z].*[a-z]).{8,}$/" required />
+                    <input type="password" id="pass" placeholder="Пароль*" pattern="^(?=.*[A-Z].*[A-Z])(?=.*[!@#$&*])(?=.*[0-9].*[0-9])(?=.*[a-z].*[a-z].*[a-z]).{8,}$" required />
                     <!-- <div class="error-message4" id="nopass"></div> -->
                     <input type="tel" id="number" placeholder="Номер мобильного телефона" />
                     <!-- <div class="error-message5" id="nonumber"></div> -->
